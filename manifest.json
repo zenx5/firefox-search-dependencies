@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name":"Github search dependencies",
+  "version": "1.0",
+  "description": "Base",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*?tab=repositories"
+    ],
+      "js": ["src/js/search.js"]
+    }
+  ]
+}
